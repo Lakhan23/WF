@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    background-image: url(./media/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #55d6aa;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding : 10px 0;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hover:hover{
+    border: 3px solid black;
+}
+
+#login{
+    color: #55d6aa;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+main pre{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 3rem;
+    font-family: cursive;
+    display: inline-block;
+}
+
+.dish{
+    padding-right: 150px;
+    padding-top: 100px;
+    float: right;
+}
+
+#dis{
+    display:inline-block;
+    float: right;
+    padding-right: 330px;
+    font-family: cursive;
+}
+
+.uspd{
+    float: none;
+    font-style: italic;
+    font-weight: 200;
+    width: 500px;
+}
+
+.login{
+    width: 320px;
+    height: 390px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter:blur(3px);
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+#logimg{
+    margin-left: 31%;   
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+
+}
+
+button{
+    font-size: 18px;
+    padding: 6px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background: black;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
